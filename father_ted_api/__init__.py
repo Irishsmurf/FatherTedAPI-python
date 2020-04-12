@@ -16,13 +16,13 @@
 from __future__ import absolute_import
 
 # import apis into sdk package
-from swagger_client.api.characters_api import CharactersApi
-from swagger_client.api.episodes_api import EpisodesApi
-from swagger_client.api.quotes_api import QuotesApi
-from swagger_client.api.series_api import SeriesApi
+from father_ted_api.api.characters_api import CharactersApi
+from father_ted_api.api.episodes_api import EpisodesApi
+from father_ted_api.api.quotes_api import QuotesApi
+from father_ted_api.api.series_api import SeriesApi
 
 # import ApiClient
-from swagger_client.api_client import ApiClient
-from swagger_client.configuration import Configuration
+from father_ted_api.api_client import ApiClient
+from father_ted_api.configuration import Configuration
 # import models into sdk package
-from swagger_client.models.quote import Quote
+from father_ted_api.models.quote import Quote

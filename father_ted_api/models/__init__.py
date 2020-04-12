@@ -15,4 +15,4 @@
 from __future__ import absolute_import
 
 # import models into model package
-from swagger_client.models.quote import Quote
+from father_ted_api.models.quote import Quote
