@@ -1,4 +1,4 @@
-# swagger_client.QuotesApi
+# father_ted_api.QuotesApi
 
 All URIs are relative to *https://api.fatherted.irish*
 
@@ -19,12 +19,12 @@ Retrieve quotes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import father_ted_api
+from father_ted_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.QuotesApi()
+api_instance = father_ted_api.QuotesApi()
 series = 'series_example' # str | Retrieve all quotes for a given series. (optional)
 episode = 'episode_example' # str | Retrieve all quotes for a given episode title. (optional)
 character = 'character_example' # str | Retrieve all quotes for a given character. (optional)
@@ -71,12 +71,12 @@ Retrieves a single quote from the given parameters.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import father_ted_api
+from father_ted_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.QuotesApi()
+api_instance = father_ted_api.QuotesApi()
 series = 'series_example' # str | Retrieve all quotes for a given series. (optional)
 episode = 'episode_example' # str | Retrieve all quotes for a given episode title. (optional)
 character = 'character_example' # str | Retrieve all quotes for a given character. (optional)

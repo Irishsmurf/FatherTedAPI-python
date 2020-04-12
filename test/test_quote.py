@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.quote import Quote  # noqa: E501
-from swagger_client.rest import ApiException
+import father_ted_api
+from father_ted_api.models.quote import Quote  # noqa: E501
+from father_ted_api.rest import ApiException
 
 
 class TestQuote(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestQuote(unittest.TestCase):
     def testQuote(self):
         """Test Quote"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.quote.Quote()  # noqa: E501
+        # model = father_ted_api.models.quote.Quote()  # noqa: E501
         pass
 
 

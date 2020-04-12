@@ -1,4 +1,4 @@
-# swagger_client.SeriesApi
+# father_ted_api.SeriesApi
 
 All URIs are relative to *https://api.fatherted.irish*
 
@@ -16,12 +16,12 @@ List available series.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import father_ted_api
+from father_ted_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SeriesApi()
+api_instance = father_ted_api.SeriesApi()
 
 try:
     # List available series.

@@ -1,4 +1,4 @@
-# swagger_client.CharactersApi
+# father_ted_api.CharactersApi
 
 All URIs are relative to *https://api.fatherted.irish*
 
@@ -16,12 +16,12 @@ List available characters.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import father_ted_api
+from father_ted_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.CharactersApi()
+api_instance = father_ted_api.CharactersApi()
 
 try:
     # List available characters.
